@@ -3,12 +3,13 @@
 
 int main()
 {
-    double a=9.75;
-    double b=12.5;
+    int a,b,res;
 
-    double c = pow(a,b);
-    printf("es: %lf", c);
+    printf("el valor de a es:");
+    scanf("%d",&a);
+    printf("el valor de b es:");
+    scanf("%d",&b);
+
+    res=pow(a,b);
     return 0;
-
-
 }
